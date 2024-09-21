@@ -93,7 +93,7 @@ REFERAL_COUNT = int(environ.get('REFERAL_COUNT', '20')) # number of referal coun
 REFERAL_PREMEIUM_TIME = environ.get('REFERAL_PREMEIUM_TIME', '1 week')
 OWNER_USERNAME = environ.get('OWNER_USERNAME', 'vbkguru') # owner username without @
 
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002371982675')) #Log channel id ( make sure bot is admin )
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '0')) #Log channel id ( make sure bot is admin )
 DUMP_CHNL = int(environ.get('DUMP_CHNL', '-1002421441796'))
 
 # Verify
