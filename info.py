@@ -110,7 +110,7 @@ MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
 BOT_USERNAME = environ.get("BOT_USERNAME", "filterbybot")
 BOT_NAME = environ.get("BOT_NAME", "𝐋ᴜᴄʏ")
-BOT_ID = environ.get("BOT_ID", "6040310745")
+BOT_ID = environ.get("BOT_ID", "7858499968")
 S_GROUP = environ.get('S_GROUP', "vbkboss")
 S_CHANNEL = environ.get('S_CHANNEL', "SihagBots")
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/VBKXBOSS')
@@ -177,7 +177,7 @@ else:
     URL = "http://{}/".format(FQDN)
 
 # add premium logs channel id
-PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1001868871195'))
+PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1002184830558'))
 
 LOG_STR = "Current Cusomized Configurations are:-\n"
 LOG_STR += ("IMDB Results are enabled, Bot will be showing imdb details for you queries.\n" if IMDB else "IMBD Results are disabled.\n")
